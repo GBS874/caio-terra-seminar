@@ -142,13 +142,14 @@
     animation: fadeUp 0.8s 0.3s ease forwards;
   }
 
-  .hero-logo { height: 56px; width: auto; opacity: 0.92; mix-blend-mode: screen; }
-  .hero-logo.invert { filter: brightness(0) invert(1); }
+  .hero-logo { height: 56px; width: auto; opacity: 0.92; }
+  .hero-logo.zahid { mix-blend-mode: screen; }
+  .hero-logo.cta { filter: brightness(0) invert(1); }
   .logo-divider { width: 1px; height: 42px; background: rgba(255,255,255,0.18); }
 
   .hero-eyebrow {
     font-family: 'Space Mono', monospace;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.32em;
     text-transform: uppercase;
     color: var(--blue-accent);
@@ -196,7 +197,7 @@
 
   .meta-label {
     font-family: 'Space Mono', monospace;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
     color: var(--blue-accent);
@@ -284,7 +285,7 @@
 
   .section-tag {
     font-family: 'Space Mono', monospace;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--blue-accent);
@@ -382,7 +383,7 @@
 
   .team-heading { font-family:'Bebas Neue',sans-serif; font-size:clamp(36px,4.5vw,58px); color:var(--text); margin-bottom:6px; margin-top:10px; line-height:1; }
 
-  .team-location { font-family:'Space Mono',monospace; font-size:10px; letter-spacing:0.25em; text-transform:uppercase; color:var(--blue-accent); margin-bottom:24px; }
+  .team-location { font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.25em; text-transform:uppercase; color:var(--blue-accent); margin-bottom:24px; }
 
   .team-text { font-family:'Inter',sans-serif; font-size:15px; font-weight:400; line-height:1.85; color:var(--text-soft); margin-bottom:14px; }
 
@@ -394,7 +395,7 @@
 
   .badge-dot { width:7px; height:7px; background:var(--blue-accent); border-radius:50%; }
 
-  .badge-text { font-family:'Space Mono',monospace; font-size:9px; letter-spacing:0.2em; text-transform:uppercase; color:var(--blue-accent); }
+  .badge-text { font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--blue-accent); }
 
   /* ══ EXPECT ══ */
   .expect-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; margin-top:52px; }
@@ -440,7 +441,7 @@
 
   .register-sub { font-family:'Inter',sans-serif; font-size:16px; font-weight:400; color:var(--text-soft); margin-bottom:14px; max-width:520px; margin-left:auto; margin-right:auto; line-height:1.7; }
 
-  .price-note { font-family:'Space Mono',monospace; font-size:10px; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-accent); margin-bottom:44px; }
+  .price-note { font-family:'Space Mono',monospace; font-size:12px; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-accent); margin-bottom:44px; }
 
   .register-btn {
     display:inline-flex; align-items:center; gap:14px;
@@ -508,9 +509,9 @@
   <!-- LEFT: text -->
   <div class="hero-content">
     <div class="hero-logos">
-      <img src="ZAHID-TEAM-CTA.png" alt="Zahid Team CTA" class="hero-logo">
+      <img src="ZAHID-TEAM-CTA.png" alt="Zahid Team CTA" class="hero-logo zahid">
       <div class="logo-divider"></div>
-      <img src="CTA_inversed.png" alt="Caio Terra Association" class="hero-logo">
+      <img src="CTA_inversed.png" alt="Caio Terra Association" class="hero-logo cta">
     </div>
 
     <div class="hero-eyebrow">Zahid Team CTA presents</div>
